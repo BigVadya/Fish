@@ -364,8 +364,19 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 500px;
+
 }
+.b-bg__img{
+    background: #323236
+}
+
+
 @media screen and (max-width: 540px) {
+
+.b-bg__img{
+    background: #323236
+}
+
 .form-center {
         max-width: none
 }
@@ -1078,7 +1089,6 @@ body {
     font-size: 16px;
     line-height: normal;
     height: 100%;
-    background-image: url(back.jpg);
     background: #323236;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1097,6 +1107,7 @@ body {
         height: 100%;
         overflow: hidden;
     }
+@media screen and (max-width: 2000px) {
 .b-account-page .b-bg__img {
             position: absolute;
             left: 0;
@@ -1111,6 +1122,28 @@ body {
             height: 100%;
             width: 100%;
         }
+
+}
+
+@media screen and (max-width: 460px) {
+.b-account-page .b-bg__img {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            min-width: 2560px;
+            min-height: 1440px;
+            background: #323236;
+            background-size: cover;
+            -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+            height: 100%;
+            width: 100%;
+        }
+
+}
+
+
 .b-spa-page .b-bg {
         display: none;
     }
